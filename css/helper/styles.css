@@ -1,0 +1,393 @@
+/*!
+This is a generated stylesheet
+Written by Steven Jackson - 26 Jan 2019 
+
+IMPORTANT:
+DO NOT EDIT THE CSS DIRECTLY
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+#main {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  background-color: #3b4a54;
+}
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+.navbar .nav-item a.nav-link {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar .navbar-collapse.collapse.show li {
+  padding: 1rem 0;
+  text-align: center;
+}
+.navbar .navbar-collapse.collapse.show li a {
+  font-size: 1.3rem;
+}
+.navbar .navbar-collapse.collapse.show li:hover {
+  background-color: #506472;
+}
+
+#blocks {
+  padding: 2rem 0;
+}
+#blocks .container .row {
+  margin: 0;
+  justify-content: center;
+}
+#blocks .container .row .col-xs-3 {
+  justify-content: center;
+  width: 25%;
+}
+@media screen and (max-width: 991px) {
+  #blocks .container .row .col-xs-3 {
+    padding: 0;
+    margin: 0 !important;
+    width: 24vw;
+  }
+}
+@media (max-width: 768px) {
+  #blocks .container .row .col-xs-3 {
+    margin: 0 !important;
+    width: 24vw;
+  }
+}
+@media screen and (max-width: 568px) {
+  #blocks .container .row .col-xs-3 {
+    padding: 0;
+    margin: 0 !important;
+    width: 48vw;
+  }
+}
+@media (max-width: 768px) {
+  #blocks .container .row {
+    margin: 0 !important;
+    width: 96vw;
+  }
+}
+#blocks .container img {
+  max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+  #blocks .container img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  #blocks .container {
+    padding: 0;
+    margin: 0;
+    width: 99vw;
+  }
+}
+@media (max-width: 768px) {
+  #blocks .container {
+    width: 96vw;
+  }
+}
+@media (max-width: 568px) {
+  #blocks .container {
+    width: 96vw;
+  }
+}
+@media screen and (max-width: 991px) {
+  #blocks {
+    padding: 0;
+  }
+}
+
+.card-holder {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+}
+@media screen and (max-width: 568px) {
+  .card-holder {
+    width: 94%;
+  }
+}
+.card-holder .card {
+  width: 25rem;
+  padding: 1rem;
+  background-color: #3b4a54;
+  color: #fff;
+}
+.card-holder .card .card-body {
+  padding: 1rem 0;
+}
+.card-holder .card a {
+  text-decoration: none;
+}
+.card-holder .card a .card-footer {
+  text-align: center;
+  background-color: #ff0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3b4a54;
+}
+@media screen and (max-width: 568px) {
+  .card-holder .card {
+    width: 94%;
+  }
+}
+.card-holder .card h3 {
+  color: #ff0;
+}
+
+.carousel {
+  margin-bottom: 0;
+}
+
+/* The controlsy */
+.carousel-control {
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  border: 4px solid #fff;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
+}
+
+.carousel-control.right {
+  right: -12px;
+}
+
+/* The indicators */
+.carousel-indicators {
+  margin: 0 auto;
+  top: auto;
+  bottom: 5%;
+  border-radius: 100%;
+}
+
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece;
+  width: 20px;
+  border-radius: 100%;
+  height: 1px;
+}
+
+.carousel-indicators .active {
+  width: 20px;
+  border-radius: 100%;
+  height: 1px;
+  background: #428bca;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 2px;
+  background: #3b4a54;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #3b4a54;
+  margin-top: -6px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #3b4a54;
+}
+
+#contact {
+  padding: 4rem 0;
+  background-color: #c3c3c3;
+}
+#contact .form__wrapper {
+  background-color: #3b4a54;
+  padding: 1rem;
+}
+#contact .form__wrapper h3 {
+  margin-bottom: 1rem;
+  color: #ff0;
+}
+#contact .form__wrapper form .form-group input.form-control, #contact .form__wrapper form .form-group select.form-control {
+  border-radius: 0;
+  height: 3rem;
+  padding: 0rem 1.5rem;
+}
+#contact .form__wrapper form .submit__wrapper input {
+  margin-top: 2rem;
+  width: 100%;
+  color: #3b4a54;
+  background-color: #ff0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#contact .happiness {
+  padding: 0 2rem;
+}
+@media screen and (max-width: 768px) {
+  #contact .happiness {
+    padding: 0rem 2rem 4rem 2rem;
+  }
+}
+#contact .happiness p.lead {
+  margin: 0;
+}
+#contact .happiness .happiness__input input {
+  background: transparent;
+  float: left;
+  width: 90%;
+  height: 37px;
+}
+@media screen and (max-width: 991px) {
+  #contact .happiness .happiness__input input {
+    width: 85%;
+  }
+}
+#contact .happiness .happiness__svg__wrapper {
+  padding: 1rem 0;
+}
+#contact .happiness .happiness__svg__wrapper svg {
+  height: 25vh;
+}
+#contact .happiness .svg__left__caret svg {
+  height: 4vh;
+  float: left;
+}
+#contact .happiness .svg__right__caret svg {
+  height: 4vh;
+}
+
+footer {
+  background-color: #3b4a54;
+  color: #c9c9c9;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+}
+footer a {
+  color: #ff0;
+}
+footer svg {
+  margin: 0 0.25rem;
+  height: 25px;
+}
+footer .topfooter__wrapper {
+  padding: 1rem;
+}
+footer .topfooter__wrapper span.footer__divider {
+  padding: 2rem;
+}
+footer .copyright .copyright__wrapper {
+  padding: 3rem 0 0 0;
+}
+footer .copyright .copyright__wrapper span {
+  font-size: 0.7rem;
+}
+footer .footer__award__wrapper {
+  padding: 2rem 0;
+}
+footer .footer__award__wrapper .footer__award .footer__award__item {
+  font-size: 0.8rem;
+}
+footer .footer__award__wrapper .footer__award .footer__award__item p {
+  margin: 0;
+}
+footer .footer__award__wrapper .footer__award .footer__award__item span {
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  footer .footer__award__wrapper .footer__award {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .footer__award__wrapper {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer .footer__carousel {
+    display: none;
+  }
+}
+
+footer {
+  /* The controlsy */
+  /* The indicators */
+  /* The colour of the indicators */
+}
+footer .carousel {
+  margin-bottom: 0;
+}
+footer .carousel-control {
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  border: 4px solid #fff;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
+}
+footer .carousel-control.right {
+  right: -12px;
+}
+footer .carousel-indicators {
+  margin: 0 auto;
+  top: auto;
+  bottom: 5%;
+  border-radius: 100%;
+}
+footer .carousel-indicators li {
+  background: #cecece;
+  width: 20px;
+  border-radius: 100%;
+  height: 1px;
+}
+footer .carousel-indicators .active {
+  width: 20px;
+  border-radius: 100%;
+  height: 1px;
+  background: #428bca;
+}
+footer .carousel-control-next, footer .carousel-control-prev {
+  width: 5%;
+}
+footer .carousel-item .footer__award__item {
+  font-size: 0.8rem;
+  padding: 0 1rem;
+}
+footer .carousel-item .footer__award__item p {
+  margin: 0;
+}
+footer .carousel-item .footer__award__item span {
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  footer .carousel-item {
+    display: none;
+  }
+}

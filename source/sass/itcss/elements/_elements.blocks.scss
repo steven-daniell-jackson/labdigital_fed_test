@@ -1,0 +1,72 @@
+
+// Blocks
+
+#blocks {
+  padding: 2rem 0;
+  .container {
+    .row {
+      margin: 0;
+      justify-content: center;
+      
+      .col-xs-3 {  
+        justify-content: center;
+        width: 25%;
+        
+        @media screen and (max-width: 991px) {
+          padding: 0;
+          margin: 0 !important;
+          width: 24vw;
+        } 
+        @media (max-width: 768px){
+          margin: 0 !important;
+          width: 24vw;
+        }
+        @media screen and (max-width: 568px) {
+          padding: 0;
+          margin: 0 !important;
+          width: 48vw;
+        } 
+      }
+      
+      @media (max-width: 768px){
+        margin: 0 !important;
+        width: 96vw;
+      }
+      
+    }
+    
+    img {
+      max-width: 100%;
+      @media screen and (max-width: 1280px) {
+        // max-width: 230px;
+      }
+      @media screen and (max-width: 991px) {
+        max-width: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        // max-width: 230px;
+      }
+      
+    }
+    @media screen and (max-width: 991px) {
+      padding: 0;
+      margin: 0;
+      width: 99vw;
+    }
+    
+    @media (max-width: 768px){
+      width: 96vw;
+    }
+    
+    @media (max-width: 568px){
+      width: 96vw;
+    }
+  }
+  
+  
+  @media screen and (max-width: 991px) {
+    padding: 0;
+  }
+  
+}
+

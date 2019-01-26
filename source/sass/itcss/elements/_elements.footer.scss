@@ -1,0 +1,64 @@
+
+// Footer 
+
+footer {
+    background-color: #3b4a54;
+    color: #c9c9c9;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    a {
+      color: $theme_yellow;
+    }
+    svg {
+      margin: 0 0.25rem;
+      height: 25px;
+    }
+    
+    .topfooter__wrapper {
+      padding: 1rem;
+      span {
+        &.footer__divider {
+          padding: 2rem;
+        }
+      }
+    }
+    .copyright{
+      .copyright__wrapper {
+        padding: 3rem 0 0 0;
+        
+        span {
+          font-size: 0.7rem;
+        }
+      }
+    }
+    .footer__award__wrapper {
+      padding: 2rem 0;
+      .footer__award {
+        .footer__award__item{
+          font-size: 0.8rem;
+          p {
+            margin: 0;
+          }
+          span {
+            font-size: 1rem;
+          }
+        }
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        padding: 0;
+      }
+    }
+    
+    .footer__carousel {
+      @media screen and (min-width: 768px) {
+        
+        display: none;
+      }
+    }
+    
+  }
+  
+  
