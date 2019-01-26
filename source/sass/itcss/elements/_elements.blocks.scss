@@ -10,14 +10,20 @@
       
       .col-xs-3 {  
         justify-content: center;
-        width: 25%;
+        width: auto;
+
+        @media screen and (max-width: 1024px) {
+          padding: 0;
+          margin: 0 !important;
+          width: 24vw;
+        } 
         
         @media screen and (max-width: 991px) {
           padding: 0;
           margin: 0 !important;
           width: 24vw;
         } 
-        @media (max-width: 768px){
+        @media (max-width: 1024px){
           margin: 0 !important;
           width: 24vw;
         }
@@ -57,10 +63,14 @@
     @media (max-width: 768px){
       width: 96vw;
     }
-    
+    @media (min-width: 768px){
+      max-width: 100%;
+  }
     @media (max-width: 568px){
       width: 96vw;
     }
+    
+      
   }
   
   
